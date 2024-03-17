@@ -19,13 +19,13 @@ const Projects = () => {
           Url={"https://blog-mern-ruby.vercel.app/"}
           img={one}
           title="Blog-App"
-          description="React, Node, Express, Mongodb"
+          description="React, Node JS, Express JS, Mongodb"
         />
         <Projectsitem
           Url={"https://sarkariexamshub.onrender.com"}
           img={two}
           title="Sarkari Exam Hub Portal"
-          description="React, Node, Express, Mongodb"
+          description="React, Node JS, Express JS, Mongodb"
         />
         <Projectsitem
           Url={"https://onlineshop-mern.vercel.app/"}
