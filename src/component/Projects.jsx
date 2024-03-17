@@ -33,7 +33,9 @@ const Projects = () => {
           title="E-Commerce App"
           description="React, Node, Express, Mongodb"
         />
+
         <Projectsitem
+          Url={"https://detail-app.vercel.app/"}
           img={four}
           title="Portfolio"
           description="React, Tailwind css"

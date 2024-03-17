@@ -16,7 +16,7 @@ const Projectsitem = ({ img, title, Url, description }) => {
           {description}
         </p>
         {/* React Js */}
-        <a href={Url}>
+        <a href={Url} target="_blank">
           <p className="text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg">
             Open Project
           </p>
