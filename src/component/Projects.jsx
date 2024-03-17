@@ -15,10 +15,29 @@ const Projects = () => {
         All Projects details and related inofrmations are given below.
       </p>
       <div className="grid sm:grid-cols-2  gap-12">
-        <Projectsitem img={one} title="First App" />
-        <Projectsitem img={two} title="Second App" />
-        <Projectsitem img={three} title="Third App" />
-        <Projectsitem img={four} title="Forth App" />
+        <Projectsitem
+          Url={"https://blog-mern-ruby.vercel.app/"}
+          img={one}
+          title="Blog-App"
+          description="React, Node, Express, Mongodb"
+        />
+        <Projectsitem
+          Url={"https://sarkariexamshub.onrender.com"}
+          img={two}
+          title="Sarkari Exam Hub Portal"
+          description="React, Node, Express, Mongodb"
+        />
+        <Projectsitem
+          Url={"https://onlineshop-mern.vercel.app/"}
+          img={three}
+          title="E-Commerce App"
+          description="React, Node, Express, Mongodb"
+        />
+        <Projectsitem
+          img={four}
+          title="Portfolio"
+          description="React, Tailwind css"
+        />
       </div>
     </div>
   );
