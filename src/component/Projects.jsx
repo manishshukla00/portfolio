@@ -31,14 +31,13 @@ const Projects = () => {
           Url={"https://onlineshop-mern.vercel.app/"}
           img={three}
           title="E-Commerce App"
-          description="React, Node, Express, Mongodb"
+          description="React, MUI, Tailwind CSS, Tailwind UI"
         />
-
         <Projectsitem
           Url={"https://detail-app.vercel.app/"}
           img={four}
           title="Portfolio"
-          description="React, Tailwind css"
+          description="React, Tailwind CSS"
         />
       </div>
     </div>
