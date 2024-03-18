@@ -16,7 +16,7 @@ const Projects = () => {
       </p>
       <div className="grid sm:grid-cols-2  gap-12">
         <Projectsitem
-          Url={"https://blog-mern-ruby.vercel.app/"}
+          Url={"https://app-blog-mern.vercel.app/auth"}
           img={one}
           title="Blog-App"
           description="React, Node JS, Express JS, Mongodb"
