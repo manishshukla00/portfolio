@@ -9,7 +9,7 @@ const Main = () => {
   return (
     <div id="main">
       <img
-        className="w-full h-screen object-cover object-center scale-x-[1]"
+        className="w-full h-screen object-center scale-x-[1]"
         src={Image}
         alt="/"
       />
