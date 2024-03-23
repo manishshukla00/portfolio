@@ -4,6 +4,13 @@ import Workitem from "./EducationItem";
 const data = [
   {
     type: "Training",
+    title: "Full-stack web development",
+    subject: "MERN",
+    details:
+      "I have successfully completed 6-month MERN-stack learning and internship at We Are Engineer.And completed one month virtual internship of fullstack web development organised by Bharat Intern.",
+  },
+  {
+    type: "Course",
     title: "Web Development",
     subject: "Frontend",
     details:
@@ -39,7 +46,7 @@ const Education = () => {
       className="max-w-[1040px] h-screen m-auto md:pl-20 px-4 py-4"
     >
       <h1 className="text-4xl font-bold text-center mb-20 text-[#001b5e]">
-        Education
+        Education & Trainings
       </h1>
       {data.map((item, idx) => {
         return (
