@@ -1,5 +1,5 @@
 import React from "react";
-import Degree from "../assets/Degree.jpg";
+// import Degree from "../assets/Degree.jpg";
 import Frontend from "../assets/frontend-Certificate.jpg";
 import Javascript from "../assets/JavaScript.jpg";
 import Nodejs from "../assets/NodeJs.jpg";
@@ -11,7 +11,7 @@ import DSA from "../assets/DSA.jpg";
 import sOne from "../assets/Scalar-1.jpg";
 import sTwo from "../assets/Scalar-2.jpg";
 import sThree from "../assets/Scalar-3.jpg";
-import sFour from "../assets/Scalar-4.jpg";
+// import sFour from "../assets/Scalar-4.jpg";
 import sFive from "../assets/Scalar-5.jpg";
 import Certificateitem from "./Certificateitem";
 
@@ -25,7 +25,7 @@ const Certificate = () => {
         Graduation Degree,Certificate of frontend,javascript and nodejs.
       </p>
       <div className="grid sm:grid-cols-2  gap-12">
-        <Certificateitem img={Degree} title="First App" />
+        {/* <Certificateitem img={Degree} title="First App" /> */}
         <Certificateitem img={MernOne} title="First App" />
         <Certificateitem img={MernTwo} title="First App" />
         <Certificateitem img={Frontend} title="Second App" />
@@ -37,7 +37,7 @@ const Certificate = () => {
         <Certificateitem img={sOne} title="Third App" />
         <Certificateitem img={sTwo} title="Third App" />
         <Certificateitem img={sThree} title="Third App" />
-        <Certificateitem img={sFour} title="Third App" />
+        {/* <Certificateitem img={sFour} title="Third App" /> */}
         <Certificateitem img={sFive} title="Third App" />
       </div>
     </div>
