@@ -20,7 +20,7 @@ const Main = () => {
           </h1>
           <h2 className="flex  sm:text-3xl text-2xl pt-4">
             <TypeAnimation
-              sequence={["MERN Developer", 2000, "React Developer", 2000]}
+              sequence={["MERN Stack Developer", 2000, "React Developer", 2000]}
               wrapper="div"
               className="text-blue-800"
               cursor={true}
