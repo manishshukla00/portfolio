@@ -30,14 +30,14 @@ const Projects = () => {
         <Projectsitem
           Url={"https://onlineshop-mern.vercel.app/"}
           img={three}
-          title="E-Commerce App"
+          title="E-Commerce (Frontend)"
           description="React, MUI, Tailwind CSS, Tailwind UI"
         />
         <Projectsitem
-          Url={"https://detail-app.vercel.app/"}
+          Url={"https://frontend-mern-e-commerce.vercel.app/"}
           img={four}
-          title="Portfolio"
-          description="React, Tailwind CSS"
+          title="E-Commerce (MERN)"
+          description="MongoDB, ExpressJs, ReactJs, and NodeJs"
         />
       </div>
     </div>

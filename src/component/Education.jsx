@@ -3,7 +3,7 @@ import Workitem from "./EducationItem";
 
 const data = [
   {
-    type: "Training",
+    type: "Internship",
     title: "Full-stack web development",
     subject: "MERN",
     details:
